@@ -254,22 +254,22 @@ const PromotionIndicator = styled.div`
 
 const About = () => (
   <AboutContainer>
-    <Intro>
-      <Title>Hi, I am Abinav</Title>
-      <p style={{ fontSize: '1.2rem', margin: 0 }}>
-        I convert mathematical models in code to production-grade software
-      </p>
-    </Intro>
-
     <Section>
-      <Subtitle>What do I do for work</Subtitle>
+      <Subtitle>Outside Work</Subtitle>
       <p>
-        My job is to run convert mathematical models in code to production grade software. 
-        What are these mathematical models in code? These are what people nowadays call <strong>AI</strong>. 
-        I have experience of building and making them available to users for about 4 years now across organizations.
+        When I'm not building machine learning systems, you can find me exploring the latest developments in AI research, 
+        contributing to open-source projects, or sharing knowledge through technical writing and community talks.
+      </p>
+      <p>
+        I'm passionate about privacy-preserving technologies and responsible AI development. I enjoy mentoring 
+        junior developers and participating in hackathons focused on solving real-world problems with AI.
+      </p>
+      <p>
+        In my free time, I like to stay active through hiking and cycling, and I'm always eager to learn new 
+        programming languages and frameworks to expand my technical toolkit.
       </p>
     </Section>
-
+    
     <Section>
       <Subtitle>Skills & Technologies</Subtitle>
       <SkillsGrid>
@@ -503,25 +503,24 @@ const About = () => (
 
     <Section>
       <Subtitle>Work Experience</Subtitle>
-      <TimelineItem>
-        <TimelineContent>
-          <CompanyName>ACV Auctions</CompanyName>
-          <JobTitle>Senior Engineer Machine Learning (MLOps)</JobTitle>
-          <Duration>June 2025 - Present</Duration>
-          <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-            Leading MLOps initiatives and scaling machine learning infrastructure. Implementing automated deployment pipelines and monitoring systems for production ML models.
-          </p>
-        </TimelineContent>
-      </TimelineItem>
       
       <TimelineItem>
         <TimelineContent>
           <CompanyName>ACV Auctions</CompanyName>
-          <JobTitle>Engineer III Machine Learning (MLOps)</JobTitle>
-          <Duration>May 2024 - June 2025</Duration>
-          <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-            Developed and maintained MLOps pipelines for real-time machine learning models. Collaborated with data scientists to deploy and monitor ML solutions in production.
-          </p>
+          <div style={{ marginBottom: '1rem' }}>
+            <JobTitle>Senior Engineer Machine Learning (MLOps)</JobTitle>
+            <Duration>June 2025 - Present</Duration>
+            <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
+              Leading MLOps initiatives and scaling machine learning infrastructure. Implementing automated deployment pipelines and monitoring systems for production ML models.
+            </p>
+          </div>
+          <div style={{ borderTop: '1px solid #e9ecef', paddingTop: '1rem' }}>
+            <JobTitle>Engineer III Machine Learning (MLOps)</JobTitle>
+            <Duration>May 2024 - June 2025</Duration>
+            <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
+              Developed and maintained MLOps pipelines for real-time machine learning models. Collaborated with data scientists to deploy and monitor ML solutions in production.
+            </p>
+          </div>
         </TimelineContent>
       </TimelineItem>
       
@@ -550,22 +549,20 @@ const About = () => (
       <TimelineItem>
         <TimelineContent>
           <CompanyName>Deepc</CompanyName>
-          <JobTitle>Machine Learning Engineer</JobTitle>
-          <Duration>Oct 2020 - Mar 2022</Duration>
-          <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-            Developed deep learning-based image routing microservice improving valid request rates from 46% to 100%. Built benchmarking workflows for vendor algorithm assessment.
-          </p>
-        </TimelineContent>
-      </TimelineItem>
-      
-      <TimelineItem>
-        <TimelineContent>
-          <CompanyName>Deepc</CompanyName>
-          <JobTitle>Junior Machine Learning Engineer</JobTitle>
-          <Duration>Jun 2019 - Oct 2020</Duration>
-          <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-            Implemented unsupervised deep learning methods for anomaly detection in medical imaging. Created user-friendly benchmarking dashboard using Plotly Dash.
-          </p>
+          <div style={{ marginBottom: '1rem' }}>
+            <JobTitle>Machine Learning Engineer</JobTitle>
+            <Duration>Oct 2020 - Mar 2022</Duration>
+            <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
+              Developed deep learning-based image routing microservice improving valid request rates from 46% to 100%. Built benchmarking workflows for vendor algorithm assessment.
+            </p>
+          </div>
+          <div style={{ borderTop: '1px solid #e9ecef', paddingTop: '1rem' }}>
+            <JobTitle>Junior Machine Learning Engineer</JobTitle>
+            <Duration>Jun 2019 - Oct 2020</Duration>
+            <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
+              Implemented unsupervised deep learning methods for anomaly detection in medical imaging. Created user-friendly benchmarking dashboard using Plotly Dash.
+            </p>
+          </div>
         </TimelineContent>
       </TimelineItem>
       
@@ -583,22 +580,20 @@ const About = () => (
       <TimelineItem>
         <TimelineContent>
           <CompanyName>Openmined</CompanyName>
-          <JobTitle>Writing Team Lead</JobTitle>
-          <Duration>July 2021 - Nov 2022</Duration>
-          <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-            Led content creation and editing for privacy-enhancing technology blog. Managed team of writers and facilitated content production for responsible AI initiatives.
-          </p>
-        </TimelineContent>
-      </TimelineItem>
-      
-      <TimelineItem>
-        <TimelineContent>
-          <CompanyName>Openmined</CompanyName>
-          <JobTitle>Research Engineer</JobTitle>
-          <Duration>April 2020 - July 2021</Duration>
-          <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-            Researched and developed privacy-preserving machine learning techniques. Contributed to open-source projects focused on federated learning and secure computation.
-          </p>
+          <div style={{ marginBottom: '1rem' }}>
+            <JobTitle>Writing Team Lead</JobTitle>
+            <Duration>July 2021 - Nov 2022</Duration>
+            <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
+              Led content creation and editing for privacy-enhancing technology blog. Managed team of writers and facilitated content production for responsible AI initiatives.
+            </p>
+          </div>
+          <div style={{ borderTop: '1px solid #e9ecef', paddingTop: '1rem' }}>
+            <JobTitle>Research Engineer</JobTitle>
+            <Duration>April 2020 - July 2021</Duration>
+            <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
+              Researched and developed privacy-preserving machine learning techniques. Contributed to open-source projects focused on federated learning and secure computation.
+            </p>
+          </div>
         </TimelineContent>
       </TimelineItem>
     </Section>
@@ -640,6 +635,8 @@ const About = () => (
         You can learn more about my current projects on <a href="https://github.com/abinavravi" target="_blank" rel="noopener noreferrer" style={{ color: '#3498db', textDecoration: 'none' }}>GitHub</a>.
       </p>
     </Section>
+
+    
   </AboutContainer>
 );
 
