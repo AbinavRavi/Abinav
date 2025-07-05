@@ -102,16 +102,16 @@ const Home = () => {
       
       <ContentSection>
         <Title>Hi, I'm Abinav</Title>
-        <Subtitle>Machine Learning Engineer & MLOps Specialist</Subtitle>
+        <Subtitle>Machine Learning Engineer</Subtitle>
         <Description>
           I'm passionate about converting mathematical models into production-grade software that drives real business value. 
-          With over 4 years of experience in <Highlight>Machine Learning Operations (MLOps)</Highlight>, 
+          With over 7 years of experience in <Highlight>Machine Learning Operations (MLOps)</Highlight>, 
           <Highlight>Computer Vision</Highlight>, and <Highlight>Medical Imaging</Highlight>, I specialize in building 
           scalable, reliable systems that make AI accessible and impactful.
         </Description>
         <Description>
           Currently working as a Senior Engineer at <Highlight>ACV Auctions</Highlight>, I lead MLOps initiatives 
-          and scale machine learning infrastructure. My expertise spans from developing deep learning models to 
+          and scale Machine learning applications that serve as core components of the business. My expertise spans from developing deep learning models to 
           implementing automated deployment pipelines and monitoring systems for production ML applications.
         </Description>
         <ContactButton onClick={handleContactClick}>

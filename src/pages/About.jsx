@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+
 const AboutContainer = styled.div`
   max-width: 800px;
   margin: 0 auto;
@@ -81,7 +82,7 @@ const TechLogo = styled.div`
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.2s ease;
   cursor: pointer;
-  
+
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
@@ -95,6 +96,7 @@ const LogoIcon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #2c3e50;
 `;
 
 const LogoText = styled.span`
@@ -145,11 +147,11 @@ const ExperienceItem = styled.div`
   border-radius: 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border-left: 4px solid #27ae60;
-  
+
   &:last-child {
     border-radius: 0 0 8px 8px;
   }
-  
+
   &:not(:last-child) {
     border-bottom: 1px solid #e9ecef;
   }
@@ -167,7 +169,7 @@ const TimelineContainer = styled.div`
   position: relative;
   padding-left: 2rem;
   margin: 2rem 0;
-  
+
   &::before {
     content: '';
     position: absolute;
@@ -182,7 +184,7 @@ const TimelineContainer = styled.div`
 const TimelineItem = styled.div`
   position: relative;
   margin-bottom: 2rem;
-  
+
   &::before {
     content: '';
     position: absolute;
@@ -204,7 +206,7 @@ const TimelineContent = styled.div`
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border-left: 4px solid #3498db;
   margin-left: 1rem;
-  
+
   &:hover {
     transform: translateX(5px);
     transition: transform 0.2s ease;
@@ -259,19 +261,18 @@ const About = () => (
     <Section>
       <Subtitle>Outside Work</Subtitle>
       <p>
-        When I'm not building machine learning systems, you can find me exploring the latest developments in AI research, 
+        When I'm not building machine learning systems, you can find me exploring the latest developments in AI research,
         contributing to open-source projects, or sharing knowledge through technical writing and community talks.
       </p>
       <p>
-        I'm passionate about privacy-preserving technologies and responsible AI development. I enjoy mentoring 
-        junior developers and participating in hackathons focused on solving real-world problems with AI.
+        I'm passionate about privacy-preserving technologies, Security and responsible AI development.
       </p>
       <p>
-        In my free time, I like to stay active through hiking and cycling, and I'm always eager to learn new 
+        In my free time, I like to stay active through gym and Yoga, and I'm always eager to learn new
         programming languages and frameworks to expand my technical toolkit.
       </p>
     </Section>
-    
+
     <Section>
       <Subtitle>Skills & Technologies</Subtitle>
       <SkillsGrid>
@@ -290,23 +291,23 @@ const About = () => (
               <LogoText>Rust</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🔵</LogoIcon>
+              <LogoIcon>🐹</LogoIcon>
               <LogoText>Go</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>⚡</LogoIcon>
+              <LogoIcon>🐧</LogoIcon>
               <LogoText>C</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🐚</LogoIcon>
+              <LogoIcon>💻</LogoIcon>
               <LogoText>Bash</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🟡</LogoIcon>
+              <LogoIcon>🌐</LogoIcon>
               <LogoText>JS</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🔴</LogoIcon>
+              <LogoIcon>🧠</LogoIcon>
               <LogoText>Julia</LogoText>
             </TechLogo>
           </LogoGrid>
@@ -323,19 +324,19 @@ const About = () => (
               <LogoText>NumPy</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🔬</LogoIcon>
+              <LogoIcon>⚙️</LogoIcon>
               <LogoText>SciPy</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🐼</LogoIcon>
+              <LogoIcon>📊</LogoIcon>
               <LogoText>Pandas</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📊</LogoIcon>
+              <LogoIcon>📈</LogoIcon>
               <LogoText>Matplotlib</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🌊</LogoIcon>
+              <LogoIcon>🎨</LogoIcon>
               <LogoText>Seaborn</LogoText>
             </TechLogo>
             <TechLogo>
@@ -347,19 +348,19 @@ const About = () => (
               <LogoText>PyTorch</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>⚡</LogoIcon>
+              <LogoIcon>🧠</LogoIcon>
               <LogoText>TensorFlow</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>👁️</LogoIcon>
+              <LogoIcon>🖼️</LogoIcon>
               <LogoText>OpenCV</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🍃</LogoIcon>
+              <LogoIcon>🌐</LogoIcon>
               <LogoText>Flask</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📊</LogoIcon>
+              <LogoIcon>📈</LogoIcon>
               <LogoText>Plotly</LogoText>
             </TechLogo>
           </LogoGrid>
@@ -376,19 +377,19 @@ const About = () => (
               <LogoText>PostgreSQL</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🍃</LogoIcon>
+              <LogoIcon>🐳</LogoIcon>
               <LogoText>MongoDB</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>⚡</LogoIcon>
+              <LogoIcon>💾</LogoIcon>
               <LogoText>DynamoDB</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🦆</LogoIcon>
+              <LogoIcon>💾</LogoIcon>
               <LogoText>DuckDB</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>💎</LogoIcon>
+              <LogoIcon>💾</LogoIcon>
               <LogoText>SQLite</LogoText>
             </TechLogo>
           </LogoGrid>
@@ -405,19 +406,19 @@ const About = () => (
               <LogoText>Docker</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>⚓</LogoIcon>
+              <LogoIcon>☁️</LogoIcon>
               <LogoText>K8s</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🦊</LogoIcon>
+              <LogoIcon>👥</LogoIcon>
               <LogoText>GitLab</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>👨‍💻</LogoIcon>
+              <LogoIcon>👥</LogoIcon>
               <LogoText>Jenkins</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🏗️</LogoIcon>
+              <LogoIcon>🧱</LogoIcon>
               <LogoText>Terraform</LogoText>
             </TechLogo>
             <TechLogo>
@@ -425,11 +426,11 @@ const About = () => (
               <LogoText>MLFlow</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🍽️</LogoIcon>
+              <LogoIcon>🍴</LogoIcon>
               <LogoText>Feast</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🔄</LogoIcon>
+              <LogoIcon>🧠</LogoIcon>
               <LogoText>Kubeflow</LogoText>
             </TechLogo>
           </LogoGrid>
@@ -442,27 +443,27 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>☁️</LogoIcon>
+              <LogoIcon>🇺🇸</LogoIcon>
               <LogoText>AWS</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🔵</LogoIcon>
+              <LogoIcon>🇬🇧</LogoIcon>
               <LogoText>GCP</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🪣</LogoIcon>
+              <LogoIcon>💾</LogoIcon>
               <LogoText>S3</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🖥️</LogoIcon>
+              <LogoIcon>💻</LogoIcon>
               <LogoText>EC2</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🔗</LogoIcon>
+              <LogoIcon>🌐</LogoIcon>
               <LogoText>Lambda</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🗄️</LogoIcon>
+              <LogoIcon>💾</LogoIcon>
               <LogoText>DynamoDB</LogoText>
             </TechLogo>
           </LogoGrid>
@@ -475,7 +476,7 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>🧠</LogoIcon>
+              <LogoIcon>🤖</LogoIcon>
               <LogoText>OpenAI</LogoText>
             </TechLogo>
             <TechLogo>
@@ -483,11 +484,11 @@ const About = () => (
               <LogoText>HuggingFace</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📝</LogoIcon>
+              <LogoIcon>📄</LogoIcon>
               <LogoText>Instructor</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🦙</LogoIcon>
+              <LogoIcon>🧠</LogoIcon>
               <LogoText>Ollama</LogoText>
             </TechLogo>
             <TechLogo>
@@ -495,7 +496,7 @@ const About = () => (
               <LogoText>Deepeval</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>💎</LogoIcon>
+              <LogoIcon>🤖</LogoIcon>
               <LogoText>Gemini</LogoText>
             </TechLogo>
           </LogoGrid>
@@ -505,7 +506,7 @@ const About = () => (
 
     <Section>
       <Subtitle>Work Experience</Subtitle>
-      
+
       <TimelineItem>
         <TimelineContent>
           <CompanyName>ACV Auctions</CompanyName>
@@ -525,7 +526,7 @@ const About = () => (
           </div>
         </TimelineContent>
       </TimelineItem>
-      
+
       <TimelineItem>
         <TimelineContent>
           <CompanyName>Turboml Inc</CompanyName>
@@ -536,7 +537,7 @@ const About = () => (
           </p>
         </TimelineContent>
       </TimelineItem>
-      
+
       <TimelineItem>
         <TimelineContent>
           <CompanyName>Machine Learning Reply GmbH</CompanyName>
@@ -547,7 +548,7 @@ const About = () => (
           </p>
         </TimelineContent>
       </TimelineItem>
-      
+
       <TimelineItem>
         <TimelineContent>
           <CompanyName>Deepc</CompanyName>
@@ -567,7 +568,7 @@ const About = () => (
           </div>
         </TimelineContent>
       </TimelineItem>
-      
+
       <TimelineItem>
         <TimelineContent>
           <CompanyName>The Mobility House</CompanyName>
@@ -578,7 +579,7 @@ const About = () => (
           </p>
         </TimelineContent>
       </TimelineItem>
-      
+
       <TimelineItem>
         <TimelineContent>
           <CompanyName>Openmined</CompanyName>
@@ -607,7 +608,7 @@ const About = () => (
         <Company>Technical University of Munich</Company>
         <Duration>2020</Duration>
       </EducationItem>
-      
+
       <EducationItem>
         <JobTitle>B.Tech in Mechanical Engineering</JobTitle>
         <Company>Amrita School of Engineering, Bengaluru campus</Company>
@@ -621,7 +622,7 @@ const About = () => (
         <JobTitle>Master Thesis: Self Supervised Out of Distribution Detection for Medical Applications</JobTitle>
         <Company>Under supervision of Dr. Kim SeongTae at CAMPAR</Company>
       </ResearchItem>
-      
+
       <ResearchItem>
         <JobTitle>Solving Inverse Problem in PDE using Deep Learning</JobTitle>
         <Company>Worked with Suprosanna in Image Based Biomedical Modelling Lab</Company>
@@ -634,11 +635,11 @@ const About = () => (
         <strong>Machine Learning Operations (MLOps)</strong>, <strong>Computer Vision</strong>, <strong>Medical Imaging</strong>
       </p>
       <p>
-        You can learn more about my current projects on <Link to="/projects" style={{ color: '#3498db', textDecoration: 'none' }}>my Projects page</Link>.
+        You can learn more about my current projects on <Link to="/projects" style={{ color: '#3498db', textDecoration: 'none' }}>here</Link>.
       </p>
     </Section>
 
-    
+
   </AboutContainer>
 );
 
