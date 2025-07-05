@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { SiPython, SiC, SiGnubash, SiJavascript, SiCplusplus, SiNumpy, SiScipy, SiPandas, SiScikitlearn, SiPytorch, SiTensorflow, SiOpencv, SiFastapi, SiPydantic, SiStreamlit, SiPostgresql, SiMongodb, SiAmazondynamodb, SiDuckdb, SiSqlite, SiKubernetes, SiJenkins, SiTerraform, SiGitlab, SiMlflow,SiGooglecloud,SiOpenai,SiHuggingface,SiOllama,SiGooglegemini,SiLangchain,SiElasticsearch } from 'react-icons/si';
+import { FaRust, FaJava, FaDocker, FaAws,FaBookReader } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 
 
 const AboutContainer = styled.div`
@@ -283,32 +286,36 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>🐍</LogoIcon>
+              <LogoIcon><SiPython /></LogoIcon>
               <LogoText>Python</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🦀</LogoIcon>
+              <LogoIcon><FaRust /></LogoIcon>
               <LogoText>Rust</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🐹</LogoIcon>
+              <LogoIcon><FaGolang /></LogoIcon>
               <LogoText>Go</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🐧</LogoIcon>
+              <LogoIcon><SiC /></LogoIcon>
               <LogoText>C</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>💻</LogoIcon>
+              <LogoIcon><SiGnubash /></LogoIcon>
               <LogoText>Bash</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🌐</LogoIcon>
+              <LogoIcon><SiJavascript /></LogoIcon>
               <LogoText>JS</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🧠</LogoIcon>
-              <LogoText>Julia</LogoText>
+              <LogoIcon><SiCplusplus /></LogoIcon>
+              <LogoText>C++</LogoText>
+            </TechLogo>
+            <TechLogo>
+              <LogoIcon><FaJava /></LogoIcon>
+              <LogoText>Java</LogoText>
             </TechLogo>
           </LogoGrid>
         </SkillCategory>
@@ -320,48 +327,52 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>📈</LogoIcon>
+              <LogoIcon><SiNumpy /></LogoIcon>
               <LogoText>NumPy</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>⚙️</LogoIcon>
+              <LogoIcon><SiScipy /></LogoIcon>
               <LogoText>SciPy</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📊</LogoIcon>
+              <LogoIcon><SiPandas /></LogoIcon>
               <LogoText>Pandas</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📈</LogoIcon>
+              <LogoIcon><img src="/Matplotlib.svg" /></LogoIcon>
               <LogoText>Matplotlib</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🎨</LogoIcon>
+              <LogoIcon><img src="/seaborn-1.svg" style={{width: '30px', height: '30px'}}/></LogoIcon>
               <LogoText>Seaborn</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🧠</LogoIcon>
+              <LogoIcon><SiScikitlearn /></LogoIcon>
               <LogoText>Scikit</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🔥</LogoIcon>
+              <LogoIcon><SiPytorch /></LogoIcon>
               <LogoText>PyTorch</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🧠</LogoIcon>
+              <LogoIcon><SiTensorflow /></LogoIcon>
               <LogoText>TensorFlow</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🖼️</LogoIcon>
+              <LogoIcon><SiOpencv /></LogoIcon>
               <LogoText>OpenCV</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🌐</LogoIcon>
-              <LogoText>Flask</LogoText>
+              <LogoIcon><SiFastapi /></LogoIcon>
+              <LogoText>FastAPI</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📈</LogoIcon>
-              <LogoText>Plotly</LogoText>
+              <LogoIcon><SiPydantic /></LogoIcon>
+              <LogoText>Pydantic</LogoText>
+            </TechLogo>
+            <TechLogo>
+              <LogoIcon><SiStreamlit/></LogoIcon>
+              <LogoText>Streamlit</LogoText>
             </TechLogo>
           </LogoGrid>
         </SkillCategory>
@@ -373,24 +384,28 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>🐘</LogoIcon>
+              <LogoIcon><SiPostgresql /></LogoIcon>
               <LogoText>PostgreSQL</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🐳</LogoIcon>
+              <LogoIcon><SiMongodb/></LogoIcon>
               <LogoText>MongoDB</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>💾</LogoIcon>
+              <LogoIcon><SiAmazondynamodb/></LogoIcon>
               <LogoText>DynamoDB</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>💾</LogoIcon>
+              <LogoIcon><SiDuckdb/></LogoIcon>
               <LogoText>DuckDB</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>💾</LogoIcon>
+              <LogoIcon><SiSqlite/></LogoIcon>
               <LogoText>SQLite</LogoText>
+            </TechLogo>
+            <TechLogo>
+              <LogoIcon><SiElasticsearch/></LogoIcon>
+              <LogoText>ElasticSearch</LogoText>
             </TechLogo>
           </LogoGrid>
         </SkillCategory>
@@ -402,35 +417,35 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>🐳</LogoIcon>
+              <LogoIcon><FaDocker/></LogoIcon>
               <LogoText>Docker</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>☁️</LogoIcon>
+              <LogoIcon><SiKubernetes/></LogoIcon>
               <LogoText>K8s</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>👥</LogoIcon>
+              <LogoIcon><SiGitlab/></LogoIcon>
               <LogoText>GitLab</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>👥</LogoIcon>
+              <LogoIcon><SiJenkins/></LogoIcon>
               <LogoText>Jenkins</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🧱</LogoIcon>
+              <LogoIcon><SiTerraform/></LogoIcon>
               <LogoText>Terraform</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📊</LogoIcon>
+              <LogoIcon><SiMlflow/></LogoIcon>
               <LogoText>MLFlow</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🍴</LogoIcon>
+              <LogoIcon><img src="/feast.png" style={{width: '30px', height: '30px'}}/></LogoIcon>
               <LogoText>Feast</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🧠</LogoIcon>
+              <LogoIcon><img src="/kubeflow.png" style={{width: '30px', height: '30px'}}/></LogoIcon>
               <LogoText>Kubeflow</LogoText>
             </TechLogo>
           </LogoGrid>
@@ -443,28 +458,12 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>🇺🇸</LogoIcon>
+              <LogoIcon><FaAws/></LogoIcon>
               <LogoText>AWS</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🇬🇧</LogoIcon>
+              <LogoIcon><SiGooglecloud/></LogoIcon>
               <LogoText>GCP</LogoText>
-            </TechLogo>
-            <TechLogo>
-              <LogoIcon>💾</LogoIcon>
-              <LogoText>S3</LogoText>
-            </TechLogo>
-            <TechLogo>
-              <LogoIcon>💻</LogoIcon>
-              <LogoText>EC2</LogoText>
-            </TechLogo>
-            <TechLogo>
-              <LogoIcon>🌐</LogoIcon>
-              <LogoText>Lambda</LogoText>
-            </TechLogo>
-            <TechLogo>
-              <LogoIcon>💾</LogoIcon>
-              <LogoText>DynamoDB</LogoText>
             </TechLogo>
           </LogoGrid>
         </SkillCategory>
@@ -476,28 +475,36 @@ const About = () => (
           </SkillTitle>
           <LogoGrid>
             <TechLogo>
-              <LogoIcon>🤖</LogoIcon>
+              <LogoIcon><SiOpenai/></LogoIcon>
               <LogoText>OpenAI</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🤗</LogoIcon>
+              <LogoIcon><SiHuggingface/></LogoIcon>
               <LogoText>HuggingFace</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>📄</LogoIcon>
+              <LogoIcon><FaBookReader/></LogoIcon>
               <LogoText>Instructor</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🧠</LogoIcon>
+              <LogoIcon><SiOllama/></LogoIcon>
               <LogoText>Ollama</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>✅</LogoIcon>
+              <LogoIcon><img src="/deepeval.svg" style={{width: '30px', height: '30px'}}/></LogoIcon>
               <LogoText>Deepeval</LogoText>
             </TechLogo>
             <TechLogo>
-              <LogoIcon>🤖</LogoIcon>
+              <LogoIcon><SiGooglegemini/></LogoIcon>
               <LogoText>Gemini</LogoText>
+            </TechLogo>
+            <TechLogo>
+              <LogoIcon><img src="/dspy.png" style={{width: '50px', height: '30px'}}/></LogoIcon>
+              <LogoText>DSPy</LogoText>
+            </TechLogo>
+            <TechLogo>
+              <LogoIcon><SiLangchain/></LogoIcon>
+              <LogoText>Langchain</LogoText>
             </TechLogo>
           </LogoGrid>
         </SkillCategory>
