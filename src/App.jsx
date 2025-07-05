@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -8,6 +8,34 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 
 function App() {
+  const [isNavVisible, setIsNavVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Always show nav when near the top (within 100px)
+      if (currentScrollY < 100) {
+        setIsNavVisible(true);
+        setLastScrollY(currentScrollY);
+        return;
+      }
+      
+      // Hide nav when scrolling down, show when scrolling up
+      if (currentScrollY > lastScrollY && isNavVisible) {
+        setIsNavVisible(false);
+      } else if (currentScrollY < lastScrollY && !isNavVisible) {
+        setIsNavVisible(true);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isNavVisible, lastScrollY]);
+
   return (
     <Router>
       <nav style={{ 
@@ -19,7 +47,9 @@ function App() {
         gap: '1rem', 
         padding: '1rem', 
         borderBottom: '1px solid #eee',
-        zIndex: 1000
+        zIndex: 1000,
+        transform: isNavVisible ? 'translateY(0)' : 'translateY(-100%)',
+        transition: 'transform 0.3s ease-in-out'
       }}>
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
