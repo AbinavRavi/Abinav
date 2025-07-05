@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const AboutContainer = styled.div`
   max-width: 800px;
@@ -134,6 +135,7 @@ const Company = styled.div`
   color: #2c3e50;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  text-align: left;
 `;
 
 const ExperienceItem = styled.div`
@@ -632,7 +634,7 @@ const About = () => (
         <strong>Machine Learning Operations (MLOps)</strong>, <strong>Computer Vision</strong>, <strong>Medical Imaging</strong>
       </p>
       <p>
-        You can learn more about my current projects on <a href="https://github.com/abinavravi" target="_blank" rel="noopener noreferrer" style={{ color: '#3498db', textDecoration: 'none' }}>GitHub</a>.
+        You can learn more about my current projects on <Link to="/projects" style={{ color: '#3498db', textDecoration: 'none' }}>my Projects page</Link>.
       </p>
     </Section>
 
