@@ -105,7 +105,7 @@ const Home = () => {
         <Subtitle>Machine Learning Engineer</Subtitle>
         <Description>
           I'm passionate about converting mathematical models into production-grade software that drives real business value. 
-          With over 7 years of experience in <Highlight>Machine Learning Operations (MLOps)</Highlight>, 
+          With over 6 years of experience in <Highlight>Machine Learning Operations (MLOps)</Highlight>, 
           <Highlight>Computer Vision</Highlight>, and <Highlight>Medical Imaging</Highlight>, I specialize in building 
           scalable, reliable systems that make AI accessible and impactful.
         </Description>

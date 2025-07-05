@@ -521,14 +521,17 @@ const About = () => (
             <JobTitle>Senior Engineer Machine Learning (MLOps)</JobTitle>
             <Duration>June 2025 - Present</Duration>
             <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-              Leading MLOps initiatives and scaling machine learning infrastructure. Implementing automated deployment pipelines and monitoring systems for production ML models.
+              Deploying Computer vision models for vehicle inspection and remarketing.
             </p>
           </div>
           <div style={{ borderTop: '1px solid #e9ecef', paddingTop: '1rem' }}>
             <JobTitle>Engineer III Machine Learning (MLOps)</JobTitle>
             <Duration>May 2024 - June 2025</Duration>
             <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-              Developed and maintained MLOps pipelines for real-time machine learning models. Collaborated with data scientists to deploy and monitor ML solutions in production.
+              * Built MLOps templates for cutting down the time to production for machine learning models.
+              * Built Data serving platform for serving features to machine learning models during inference and training leveraged Feast as the feature store platform.
+              * Organizer of the Machine learning guild for laying down the best practices for AI/ Machine Learning at ACV
+              * Data Infrastructure Champion acting as local support for data infra team for Kafka related queries.
             </p>
           </div>
         </TimelineContent>
@@ -551,7 +554,7 @@ const About = () => (
           <JobTitle>Machine Learning Engineer (MLE)</JobTitle>
           <Duration>June 2022 - July 2023</Duration>
           <p style={{ marginTop: '0.5rem', color: '#666', fontSize: '0.9rem' }}>
-            Built backend services for internal data marketplace handling request monitoring, approval workflows, and payment validation. Led developer community initiatives.
+            Built backend services for internal data marketplace handling request monitoring, approval workflows, and payment validation. Led MLOps community initiatives by working on POCs, and disseminating the learning across the company.
           </p>
         </TimelineContent>
       </TimelineItem>

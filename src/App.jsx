@@ -51,7 +51,7 @@ function App() {
       }}>
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
-        <a href="https://abinavravi.github.io" target="_blank" rel="noopener noreferrer">Blog</a>
+        <a href="https://abinavr.substack.com/" target="_blank" rel="noopener noreferrer">Blog</a>
         <Link to="/about">About</Link>
         <a href="https://abinavravi.github.io/resources/Abinav_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
       </nav>
