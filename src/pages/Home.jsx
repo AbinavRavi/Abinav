@@ -96,7 +96,7 @@ const Home = () => {
     <HomeContainer>
       <ProfileSection>
         <ProfileImage>
-          👨‍💻
+          <img src="/Abinav.jpg" alt="Abinav" style={{width: '100%', height: '150%', objectFit: 'cover', borderRadius: '50%'}} />
         </ProfileImage>
       </ProfileSection>
       
